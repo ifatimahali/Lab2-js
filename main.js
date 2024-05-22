@@ -63,3 +63,13 @@ function numbers(num){
 }
 }
 numbers(20);
+
+
+
+///////////////////////////////////// طريقة اخرى بالفور لاضافة مصفوفة بدال الماب
+let numberr = [1, 2 , 3, 4]
+let newnumber=[]
+for (let i=0;  i<numberr.length; i++){
+    newnumber.push( i*5)
+}
+console.log(newnumber);
