@@ -22,3 +22,44 @@ function divtwonumber(uum1 , uum2){
     return uum1 / uum2
 }
 console.log (divtwonumber(18,3))
+
+
+
+function numbers(num){
+    if(num % 3 ==0 &  num % 5 ==0){
+        console.log ("num is Fuzz and Buzz")
+    } else if (num % 3 ==0){
+        console.log ("num is Fuzz")
+} else if (num % 5 ==0){
+    console.log ("num is Buzz")
+} else{
+    console.log ("not Buzz and Fuzz")
+}
+}
+numbers(2);
+
+function numbers(num){
+    if(num % 3 ==0 &  num % 5 ==0){
+        console.log ("num is Fuzz and Buzz")
+    } else if (num % 3 ==0){
+        console.log ("num is Fuzz")
+} else if (num % 5 ==0){
+    console.log ("num is Buzz")
+} else{
+    console.log ("not Buzz and Fuzz")
+}
+}
+numbers(18);
+
+function numbers(num){
+    if(num % 3 ==0 &  num % 5 ==0){
+        console.log ("num is Fuzz and Buzz")
+    } else if (num % 3 ==0){
+        console.log ("num is Fuzz")
+} else if (num % 5 ==0){
+    console.log ("num is Buzz")
+} else{
+    console.log ("not Buzz and Fuzz")
+}
+}
+numbers(20);
