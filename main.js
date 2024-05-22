@@ -67,9 +67,9 @@ numbers(20);
 
 
 ///////////////////////////////////// طريقة اخرى بالفور لاضافة مصفوفة بدال الماب
-let numberr = [1, 2 , 3, 4]
-let newnumber=[]
+let numberr = [10, 2 , 3, 4]
+let newnumber= []
 for (let i=0;  i<numberr.length; i++){
-    newnumber.push( i*5)
+    newnumber.push( numberr[i]*10)
 }
 console.log(newnumber);
